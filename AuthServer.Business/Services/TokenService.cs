@@ -93,6 +93,8 @@ namespace AuthServer.Business.Services
 
             using var random = RandomNumberGenerator.Create();
 
+            random.GetBytes(numberByte);
+
             return Convert.ToBase64String(numberByte);
         }
 
