@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace AuthServer.Business.Services
+namespace SharedLibrary.Services
 {
     public static class SignService
     {
